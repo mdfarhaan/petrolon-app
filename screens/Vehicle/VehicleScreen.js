@@ -10,7 +10,7 @@ const VehicleScreen = ({ route, navigation }) => {
   const [showAddComp, setShowAddComp] = useState(false);
   const [data, setData] = useState([]);
 
-  const DB = "https://petrolon-server.herokuapp.com/";
+  const DB = ""; //DB Endpoint
 
   const fetchData = () => {
     fetch(DB + "fl/get/" + vehicle)

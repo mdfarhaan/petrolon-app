@@ -6,7 +6,7 @@ import VehicleCard from "./VehicleCard";
 import AddVehicle from "./AddVehicle";
 
 const HomeScreen = ({ navigation }) => {
-  const DB = "https://petrolon-server.herokuapp.com/";
+  const DB = ""; //DB Endpoint
 
   const [showAddComp, setShowAddComp] = useState(false);
   const [data, setData] = useState([]);

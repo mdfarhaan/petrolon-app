@@ -12,7 +12,7 @@ import Icon from "react-native-vector-icons/AntDesign";
 import Btn from "../../utils/Btn";
 
 const AddVehicle = (props) => {
-  const DB = "https://petrolon-server.herokuapp.com/";
+  const DB = ""; //DB Endpoint
   const [addVehicle, setAddVehicle] = useState();
 
   const addVehicleData = () => {

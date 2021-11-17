@@ -14,7 +14,7 @@ import Btn from "../../utils/Btn";
 import PickDateBtn from "../../utils/PickDateBtn";
 
 const AddVehicle = (props) => {
-  const DB = "https://petrolon-server.herokuapp.com/";
+  const DB = ""; //DB Endpoint
   const [price, setPrice] = useState();
   const [litres, setLitres] = useState();
   //Date Picker

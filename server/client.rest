@@ -1,0 +1,18 @@
+GET http://localhost:3000/vehicles
+
+###
+POST http://localhost:3000/addVehicle
+
+{
+    "vehicle":"Duke250",
+}
+
+
+###
+
+{
+      "vehicle": req.body.vehicle,
+      "price": req.body.price,
+      "litres": req.body.litres,
+      "date": "req.body.date",
+ }

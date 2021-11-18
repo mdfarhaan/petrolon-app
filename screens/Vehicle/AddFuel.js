@@ -63,7 +63,7 @@ const AddVehicle = (props) => {
     <SafeAreaView>
       <View style={styles.header}>
         <View style={styles.row}>
-          <Text style={styles.title}>Add Vehicle</Text>
+          <Text style={styles.title}>Add Fuel</Text>
           <TouchableHighlight underlayColor="" onPress={props.closeComp}>
             <Icon
               name="closecircleo"

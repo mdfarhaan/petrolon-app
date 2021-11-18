@@ -1,4 +1,6 @@
-# Petrolon
-Fuel manager app for your vehicles
+# Petrolon⛽
+### 🏍️Fuel Manager App for your Vehicles
 
-> Built using React Native and MongoDB
+<p align='center'><img src="./Mockup/Mockup.png" alt="Petrolon-Mockup" border="0"></p>
+
+> Built with ReactNative and MongoDB 

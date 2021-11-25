@@ -1,7 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 const router = express.Router();
-const URL = ""; //MongoDB Database URL
+const URL = process.env.URL;
 const MongoClient = require("mongodb").MongoClient;
 
 //Get all fuel data - Vehicles Screen
